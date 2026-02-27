@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Get a Quote - Litt Heating and Air</title>
+  <meta name="description" content="Request a free estimate from Litt Heating and Air in Modesto, CA. HVAC installation, repair, and maintenance services. Call (209) 380-3032.">
+  <meta property="og:title" content="Get a Quote - Litt Heating and Air">
+  <meta property="og:description" content="Request a free HVAC estimate from Litt Heating and Air. Serving Modesto, CA and surrounding areas.">
+  <meta property="og:type" content="website">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="site-header" role="banner">
+    <div class="header-inner">
+      <div class="logo">
+        <a href="/" aria-label="Litt Heating and Air - Home">
+          <span class="logo-icon"><i class="fas fa-snowflake"></i><i class="fas fa-fire"></i></span>
+          <span class="logo-text">LITT<br><small>HEATING &amp; AIR</small></span>
+        </a>
+      </div>
+      <button class="mobile-menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="main-nav">
+        <span class="hamburger"></span>
+      </button>
+      <nav id="main-nav" role="navigation" aria-label="Main navigation">
+        <ul class="nav-list">
+          <li><a href="/">Home</a></li>
+          <li class="has-dropdown">
+            <a href="/hvac-services" class="dropdown-trigger">
+              HVAC Services <i class="fas fa-caret-down dropdown-arrow"></i>
+            </a>
+            <ul class="dropdown-menu">
+              <li><a href="/hvac-services/emergency">24 Hour Emergency Services</a></li>
+              <li><a href="/hvac-services/ac-repair">AC Repair &amp; Service</a></li>
+              <li><a href="/hvac-services/heating-repair">Heating Repair &amp; Service</a></li>
+              <li><a href="/hvac-services/ac-installation">AC Installation</a></li>
+              <li><a href="/hvac-services/furnace-installation">Furnace Installation</a></li>
+              <li><a href="/hvac-services/duct-cleaning">Duct Cleaning &amp; Repair</a></li>
+              <li><a href="/hvac-services/heat-pumps">Heat Pump Services</a></li>
+              <li><a href="/hvac-services/indoor-air-quality">Indoor Air Quality</a></li>
+            </ul>
+          </li>
+          <li><a href="/about-us">About Us</a></li>
+          <li><a href="/contact-us">Contact Us</a></li>
+          <li class="nav-cta"><a href="/get-a-quote" class="btn-cta">Get An Estimate</a></li>
+          <li class="nav-phone"><a href="tel:+12093803032" class="btn-phone"><i class="fas fa-phone"></i> Call Us: (209) 380-3032</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main role="main">
+
+    <!-- Breadcrumb Bar -->
+    <div class="breadcrumb-bar">
+      <span>GET A QUOTE</span>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero" aria-label="Request an estimate">
+      <div class="hero-overlay">
+        <h1>REQUEST AN ESTIMATE TODAY</h1>
+      </div>
+    </section>
+
+    <!-- Schedule by Phone -->
+    <section class="schedule-phone">
+      <h2>SCHEDULE BY PHONE</h2>
+      <p class="schedule-phone-subtitle">Open 24/7</p>
+      <a href="tel:+12093803032" class="btn-call">CALL US: (209) 380-3032</a>
+    </section>
+
+    <!-- Schedule Online -->
+    <section class="schedule-online">
+      <h2>SCHEDULE ONLINE</h2>
+      <p class="schedule-online-subtitle">Submit the form below to schedule a quote.</p>
+
+      <form id="quote-form" novalidate>
+        <div class="form-group">
+          <label for="name">Name*</label>
+          <input type="text" id="name" name="name" required autocomplete="name">
+          <span class="error-message" aria-live="polite"></span>
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email*</label>
+          <input type="email" id="email" name="email" required autocomplete="email">
+          <span class="error-message" aria-live="polite"></span>
+        </div>
+
+        <div class="form-group">
+          <label for="phone">Phone*</label>
+          <input type="tel" id="phone" name="phone" required autocomplete="tel">
+          <span class="error-message" aria-live="polite"></span>
+        </div>
+
+        <div class="form-group">
+          <label for="message">How can we help?*</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+          <span class="error-message" aria-live="polite"></span>
+        </div>
+
+        <fieldset class="form-group form-checkboxes">
+          <legend>Which service are you interested in?*</legend>
+          <label class="checkbox-label">
+            <input type="checkbox" name="service" value="General Inquiry"> General Inquiry
+          </label>
+          <label class="checkbox-label">
+            <input type="checkbox" name="service" value="AC Repair & Service"> AC Repair &amp; Service
+          </label>
+          <label class="checkbox-label">
+            <input type="checkbox" name="service" value="Heating Repair & Service"> Heating Repair &amp; Service
+          </label>
+          <label class="checkbox-label">
+            <input type="checkbox" name="service" value="AC Installation"> AC Installation
+          </label>
+          <label class="checkbox-label">
+            <input type="checkbox" name="service" value="Furnace Installation"> Furnace Installation
+          </label>
+          <label class="checkbox-label">
+            <input type="checkbox" name="service" value="Duct Cleaning & Repair"> Duct Cleaning &amp; Repair
+          </label>
+          <span class="error-message" aria-live="polite"></span>
+        </fieldset>
+
+        <div class="form-group">
+          <label for="email-consent">May we email you about this?*</label>
+          <select id="email-consent" name="email_consent" required>
+            <option value="">-Select-</option>
+            <option value="Yes">Yes</option>
+            <option value="No">No</option>
+          </select>
+          <p class="consent-text">You agree to receive future emails and understand you may opt-out at any time</p>
+          <span class="error-message" aria-live="polite"></span>
+        </div>
+
+        <button type="submit" class="btn-submit">Submit</button>
+      </form>
+    </section>
+
+    <!-- Trust Badges -->
+    <section class="trust-badges" aria-label="Trust and credentials">
+      <div class="badges-container">
+        <div class="badge">
+          <div class="badge-icon">
+            <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <circle cx="50" cy="50" r="48" fill="none" stroke="#555" stroke-width="2"/>
+              <circle cx="50" cy="50" r="42" fill="none" stroke="#555" stroke-width="1"/>
+              <text x="50" y="35" text-anchor="middle" fill="#555" font-size="8" font-weight="bold" font-family="Montserrat, sans-serif">FULLY LICENSED</text>
+              <g transform="translate(35, 38)">
+                <rect x="2" y="0" width="26" height="20" rx="1" fill="none" stroke="#039AB9" stroke-width="2"/>
+                <line x1="8" y1="6" x2="24" y2="6" stroke="#039AB9" stroke-width="1.5"/>
+                <line x1="8" y1="10" x2="24" y2="10" stroke="#039AB9" stroke-width="1.5"/>
+                <line x1="8" y1="14" x2="20" y2="14" stroke="#039AB9" stroke-width="1.5"/>
+                <circle cx="4" cy="6" r="3" fill="none" stroke="#039AB9" stroke-width="1.5"/>
+                <path d="M2 8 L4 10 L7 5" fill="none" stroke="#039AB9" stroke-width="1.5"/>
+              </g>
+              <text x="50" y="72" text-anchor="middle" fill="#555" font-size="8" font-weight="bold" font-family="Montserrat, sans-serif">AND INSURED</text>
+            </svg>
+            <div class="badge-stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+          </div>
+        </div>
+        <div class="badge">
+          <div class="badge-icon badge-shield">
+            <svg viewBox="0 0 120 100" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <path d="M10 20 L60 5 L110 20 L110 60 Q110 90 60 98 Q10 90 10 60 Z" fill="none" stroke="#555" stroke-width="2"/>
+              <path d="M15 24 L60 10 L105 24 L105 58 Q105 86 60 93 Q15 86 15 58 Z" fill="none" stroke="#555" stroke-width="1"/>
+              <text x="60" y="35" text-anchor="middle" fill="#555" font-size="5" letter-spacing="1">&#9733;&#9733;&#9733;&#9733;&#9733;</text>
+              <g transform="translate(48, 38)">
+                <path d="M12 0 L14 8 L8 14 L16 14 L12 22 L10 14 L16 8 Z" fill="#039AB9" transform="scale(0.8)"/>
+              </g>
+              <text x="60" y="62" text-anchor="middle" fill="#039AB9" font-size="9" font-weight="bold" font-family="Montserrat, sans-serif">SERVING</text>
+              <text x="60" y="73" text-anchor="middle" fill="#039AB9" font-size="9" font-weight="bold" font-family="Montserrat, sans-serif">MODESTO CA</text>
+              <text x="60" y="83" text-anchor="middle" fill="#555" font-size="5.5" font-family="Montserrat, sans-serif">AND SURROUNDING AREAS</text>
+              <text x="60" y="22" text-anchor="middle" fill="#555" font-size="5" letter-spacing="1">&#9733;&#9733;&#9733;&#9733;&#9733;</text>
+            </svg>
+          </div>
+        </div>
+        <div class="badge">
+          <div class="badge-icon">
+            <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <circle cx="50" cy="50" r="48" fill="none" stroke="#555" stroke-width="2"/>
+              <circle cx="50" cy="50" r="42" fill="none" stroke="#555" stroke-width="1"/>
+              <text x="50" y="25" text-anchor="middle" fill="#c00" font-size="11" font-weight="bold" font-family="Montserrat, sans-serif">FAMILY</text>
+              <g transform="translate(28, 30)">
+                <path d="M22 8 L18 2 L14 8 M30 8 L26 2 L22 8" fill="none" stroke="#039AB9" stroke-width="2" stroke-linecap="round"/>
+                <line x1="10" y1="16" x2="34" y2="16" stroke="#039AB9" stroke-width="2"/>
+                <line x1="22" y1="8" x2="22" y2="28" stroke="#039AB9" stroke-width="2"/>
+                <circle cx="12" cy="22" r="4" fill="none" stroke="#039AB9" stroke-width="1.5"/>
+                <circle cx="32" cy="22" r="4" fill="none" stroke="#039AB9" stroke-width="1.5"/>
+              </g>
+              <text x="50" y="72" text-anchor="middle" fill="#555" font-size="8" font-weight="bold" font-family="Montserrat, sans-serif">OWNED</text>
+              <text x="50" y="83" text-anchor="middle" fill="#c00" font-size="8" font-weight="bold" font-family="Montserrat, sans-serif">BUSINESS</text>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="footer-inner">
+      <ul class="social-links" aria-label="Social media links">
+        <li><a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a></li>
+        <li><a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a></li>
+        <li><a href="https://maps.app.goo.gl/YourGoogleLink" aria-label="Google Maps"><i class="fab fa-google"></i></a></li>
+        <li><a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a></li>
+      </ul>
+      <div class="footer-links">
+        <a href="/">Home</a> |
+        <a href="/get-a-quote">Get A Quote</a> |
+        <a href="/privacy-policy">Privacy Policy</a> |
+        <a href="/contact-us">Contact Us</a>
+      </div>
+      <p class="copyright">&copy;2025 Litt Heating and Air &ndash; All rights reserved</p>
+    </div>
+  </footer>
+
+  <!-- Floating Chat Widget -->
+  <button class="chat-widget" aria-label="Open chat" title="Chat with us">
+    <i class="fas fa-comment"></i>
+  </button>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
