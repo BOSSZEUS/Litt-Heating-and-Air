@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply font-primary text-grey-dark leading-relaxed antialiased;
+    background-color: #F0F0F0;
+  }
+}
+
+@layer components {
+  .section-padding {
+    @apply py-16 px-5;
+  }
+  .container-narrow {
+    @apply max-w-container mx-auto;
+  }
+  .container-wide {
+    @apply max-w-wide mx-auto px-5;
+  }
+}
